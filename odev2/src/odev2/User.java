@@ -1,54 +1,61 @@
 package odev2;
 
 public class User {
-	int id;
-	String firstName;
-	String lastName;
-	String lesson;
+	private int id;
+	private String firstName;
+	private String lastName;
+	private String email;
+	private String userName;
+	private int age;
 	
-	public User() {
-		
-	}
-	
-	public User(int id, String firstName, String lastName, String lesson) {
+	public User() {}
+	public User(int id, String firstName, String lastName, String email, String userName, int age) {
 		super();
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.lesson = lesson;
+		this.email = email;
+		this.userName = userName;
+		this.age = age;
 	}
-
 	public int getId() {
 		return id;
 	}
-
 	public void setId(int id) {
 		this.id = id;
 	}
-
 	public String getFirstName() {
 		return firstName;
 	}
-
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
-
 	public String getLastName() {
 		return lastName;
 	}
-
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-
-	public String getLesson() {
-		return lesson;
+	public String getEmail() {
+		return email;
 	}
-
-	public void setLesson(String lesson) {
-		this.lesson = lesson;
+	public void setEmail(String email) {
+		this.email = email;
 	}
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	
 	
 	
 	
